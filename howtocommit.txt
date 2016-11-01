@@ -1,0 +1,19 @@
+Cheat sheet
+
+sh commit.sh
+sh pull.sh
+
+There are two modes: normal and insert
+
+Press esc to enter normal mode
+Press i to enter insert mode
+
+In insert mode, you can type
+
+To save after a commit and actually go through with the commit, type the
+following in normal mode
+
+:wq
+
+Log into corn and run "sh pull.sh" in the SPQR directory to get your
+changes onto our website.
