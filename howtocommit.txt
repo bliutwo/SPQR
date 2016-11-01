@@ -1,7 +1,8 @@
 Cheat sheet
 
+on my local machine:
+git pull
 sh commit.sh
-sh pull.sh
 
 There are two modes: normal and insert
 
