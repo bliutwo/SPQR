@@ -8,19 +8,28 @@
 
 \usepackage{amsmath}
 \usepackage{listings}
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+}
+
+\urlstyle{same}
 
 \begin{document}
 
 \maketitle
 
 \section{Installation Requirements}
-For this medium fidelity prototype, we used Sketch to create the user interface. We then used Marvel to animate the transitions and simulate interactivity; while the web version uses a mouse click to select options, this will be achieved with a tap on mobile. The Marvel version highlights clickable options, which will then show hard-coded results to demonstrate basic functioning principles. 
+Requires OSX. Download and run the .ipa file. Adjusting security settings in System Preferences may be necessary. \href{https://www.techwalla.com/articles/how-to-install-ipa-on-a-mac}{This website} has instructions on installing and running an ipa file. You will need iTunes.
 
 \section{Operating Instructions}
-We did not use any WOZ techniques for the medium fidelity prototype. However, we did hard-code many of the prototype's features such as the input fields for the username and password, selected languages, interests of choice and mocked up user profiles. This was necessary for us to be able to demonstrate the app's full functionality: since SPQR emphasizes interaction between users based on selected interests and languages, we needed to hard-code the material which we could base those interactions on. 
-
+The .ipa should operate similar to the medium-fi prototype.
 
 \section{Limitations}
-While the medium fidelity prototype surpasses the low-fi by far, it leaves much to be desired. We have yet to decide on avatar features (find gender-neutral options or the possibility of building your own avatar based on race, looks etc.) We also have yet to add more interests and languages - the prototype has only limited options for the purpose of simplicity. For the sake of simplicity, the content is still static (no scrolling). Our prototype also shows only one user's version of the interface or an online/offline switch for users to be able to specify if they don't wish to be open for contact. This all has the purpose of simplifying the task flow for now - however, more advanced and realistic features will be addressed and implemented in the high fidelity version of SPQR.
+Since there is no userbase, the two profiles are hard-coded. The interactions through phone call, texting, and finding people on the map used Wizard of Oz techniques. Profile information, suggested phrases, and maps are also hard-coded.
 
 \end{document}
